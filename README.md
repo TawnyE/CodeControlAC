@@ -1,3 +1,5 @@
+** the code would never be public. Only this read me file. **
+
 **CodeControlAC**, a Minecraft anti-cheat that supports versions 1.8 to 1.20.6 (with support for 21 coming soon). 
 
 ## Features
