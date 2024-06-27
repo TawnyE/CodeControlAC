@@ -5,7 +5,7 @@
 **CodeControlAC** offers highly sensitive and robust checks with minimal false positives. Here’s an overview of the checks:
 
 ### 1. Movement
-The movement engine, similar to Grim, can detect almost any movement-related cheats.
+The movement engine, can detect almost any movement-related cheats.
 
 ### 2. Combat
 - **Attack A 1x:** Reach and hitbox detection.
