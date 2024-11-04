@@ -65,8 +65,6 @@
 
 ---
 
----
-
 ## 📣 Join the Community
 
 If you’re interested in learning more, getting updates, or joining the conversation, check out the **CodeControlAC** Discord server:
