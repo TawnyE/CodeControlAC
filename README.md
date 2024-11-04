@@ -61,7 +61,7 @@
 
 ## 📹 Showcase
 
-*A video showcase could come at some point, but honestly… I’m too lazy for that right now.* :uwu:
+*A video showcase could come at some point, but honestly… I’m too lazy for that right now.* :p
 
 ---
 
