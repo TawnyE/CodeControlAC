@@ -49,6 +49,14 @@
 - **Bad Packets**: Detection types A through T.
 - **Baritone**: Detection types A through C.
 
+### 🪨 Bedrock Checks
+- **Bspeed**: Detection type A.
+- **Bfly**: Detection types A and B.
+- **Breach**: Detection type A.
+- **Bhitbox**: Detection type A.
+- **Baura**: Detection types A through D.
+- **Bstep**: Detection type A.
+
 *there's a ton more checks, but you don't have to see Them*
 
 ---
