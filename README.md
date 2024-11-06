@@ -49,7 +49,7 @@
 - **Bad Packets**: Detection types A through T.
 - **Baritone**: Detection types A through C.
 
-### 🪨 Bedrock Checks
+### 🪨 Bedrock Checks (new)
 - **Bspeed**: Detection type A.
 - **Bfly**: Detection types A and B.
 - **Breach**: Detection type A.
