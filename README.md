@@ -2,7 +2,7 @@
 
 
 # **CodeControlAC**  
-*A Minecraft anti-cheat that supports versions 1.8 to 1.21.2*
+*A Minecraft anti-cheat that supports versions 1.8 to 1.21.3*
 
 ---
 
@@ -27,7 +27,7 @@
   You can edit pretty much everything: the plugin’s name, commands, alerts, and more to fit your server.
 
 - **Version Support**  
-  Works on Minecraft versions 1.8 through 1.21.2.
+  Works on Minecraft versions 1.8 through 1.21.3.
 
 ---
 
