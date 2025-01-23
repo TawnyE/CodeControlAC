@@ -2,7 +2,7 @@
 
 
 # **CodeControlAC**  
-*A Minecraft anti-cheat that supports versions 1.8 to 1.21.3*
+*A Minecraft anti-cheat that supports versions 1.8 to 1.21.4*
 
 ---
 
@@ -41,21 +41,21 @@
 ### 🗡 Combat
 - **Killaura**: Has multiple detection types (A through H).
 - **Reach & Hitbox**: Reach detection at 3.1; hitbox detection at 0.2.
-- **Aim**: Has detection types A through G.
+- **Aim**: Has detection types A through I.
 
 ### 🛡 Other
 - **Auto Totem**: Detection types A and B.
-- **Crystal Aura**: Detection types A through D.
-- **Bad Packets**: Detection types A through T.
+- **Crystal Aura**: Detection types A through E.
+- **Bad Packets**: Detection types A through Z.
 - **Baritone**: Detection types A through C.
 
 ### 🪨 Bedrock Checks (new)
-- **Bspeed**: Detection type A.
-- **Bfly**: Detection types A and B.
+- **Bspeed**: Detection type A through C.
+- **Bfly**: Detection types A through C.
 - **Breach**: Detection type A.
 - **Bhitbox**: Detection type A.
-- **Baura**: Detection types A through D.
-- **Bstep**: Detection type A.
+- **Baura**: Detection types A through F.
+- **Bstep**: Detection type A and B.
 
 *there's a ton more checks, but you don't have to see Them*
 
@@ -63,7 +63,7 @@
 
 ## 📅 Future Plans
 
-> I might consider selling **CodeControlAC** down the line, but there’s also a chance it’ll stay private. I’ve already got a license key server set up and obfuscation in place, so it’s not easy to reverse-engineer.
+> as of right now there is no future plans.
 
 ---
 
