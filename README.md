@@ -27,7 +27,7 @@
   You can edit pretty much everything: the plugin’s name, commands, alerts, and more to fit your server.
 
 - **Version Support**  
-  Works on Minecraft versions 1.8 through 1.21.3.
+  Works on Minecraft versions 1.8 through 1.21.4.
 
 ---
 
@@ -63,7 +63,7 @@
 
 ## 📅 Future Plans
 
-> as of right now there is no future plans.
+> ....
 
 ---
 
