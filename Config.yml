@@ -1,257 +1,146 @@
-ccac:
-
-server-name: ccac
-
-license: "xxxxx-xxxx-xxxxx"
-
-command: "ccac"
-
-prefix: '&7[&6&l⚝&7]'
-
-# Experimental check symbol
-
-experimental-symbol: '(Experimental)'
-
-# Permission: "ccac.update"
-
-check-updates: true
-
-# ccac Settings
-
-settings:
-
-# Enabling this will cause players to join on injection errors. We recommend to keep this disabled.
-
-ignore-injector: false
-
-# Enables logging for /ccac logs.
-
-logging: true
-
-# Delay of the alerts being sent
-
-alert-delay: 25
-
-# Adds support for geyser users (Bedrock users)
-
-geyser-support: true
-
-# Sends a message on join about the player's client
-
-client-check: true
-
-# Allows certain people with "ccac.bypass" to be ignored
-
-bypass-permission: false
-
-# Enable this only if your custom spigot is breaking TPS
-
-runnable-tps: false
-
-# Not advised on a 1.9+ server. This can be pretty performance intensive
-
-transaction-sandwich: false
-
-# Kicks vivecraft players (VR Players)
-
-kick-vivecraft: true
-
-# If you're using API turn this on
-
-api: false
-
-# Makes it so ccac developer have access to ccac
-
-developer-perm: true
-
-# ccac Messages
-
-messages:
-
-# Alert Place Holders: %player%, %check%, %type%, %vl%, %newvl%, %ping%, %info%, %prefix%, %symbol%, %tps%
-
-log-format: '&7[%date%] %check% (%type%) VL: %vl% [TPS: %tps%] [tPing: %tping%] [Info: %info%] [Client: %brand%]'
-
-client-brand-message: '%prefix% &e%player% &7joined using &7[&e%brand%&7]'
-
-anticrash-message: '%prefix% &e%player% &7was kicked for &6%check%'
-
-no-permission-message: "&cYou don''t have permission to execute this command."
-
-failed-to-inject: "Failed to load your data."
-
-alerts:
-
-bar-color: '&e'
-
-bracket-color: '&8'
-
-alert-message: '&8[&6&l⚝&8] &e%player% &7failed &e%check%&e(%type%) (&e%ping%ms) %newvl% &6%symbol%'
-
-hover:
-
-- '&e| &7%desc%'
-
-- '&e| Info: &7%info%'
-
-- '&e| CPS: &7%cps%'
-
-- '&e| Sensitivity: &7%sensitivity%'
-
-- '&6| &6Click to teleport. &7(Ping: &f%ping% &7TPS: &f%tps% &7Version: &f%version%&7 &7Client: &f%brand%&7)'
-
-click-command: '/tp %player%'
-
-enable: '%prefix% &aYou have now enabled alerts.'
-
-disable: '%prefix% &cYou have now disabled alerts.'
-
-# Prevents some crashers for your server
-
-anticrash:
-
-enabled: true
-
-announce: true
-
-punish-command: 'kick %player% Crasher Detected'
-
-# Adds Bungee support to a network.
-
-bungee:
-
-enabled: false
-
-bans: false
-
-# Creates a Discord webhook when ever a person alerts or gets punished.
-
-discord:
-
-enabled: false
-
-user-name: ccac
-
-alerts:
-
-title: '%server% | %player% failed %check% %type% (x%vl%)'
-
-color: GRAY
-
-show-icon-thumbnail: true
-
-alert-delay: 1000
-
-alert-url: INSERT_HERE
-
-punishments:
-
-title: '%server% | %player% was punished. Failed: %check% %type% (x%vl%)'
-
-color: RED
-
-show-icon-thumbnail: true
-
-ban-url: INSERT_HERE
-
-# Teleport the cheater where they were flagged at.
-
-lagback:
-
-enabled: false
-
-# Modes: generic, pull-down, silence
-
-type: generic
-
-lagback-vl: 2
-
-# Punishes the cheater for their actions.
-
-punishments:
-
-enabled: true
-
-# Announces the punishment.
-
-announce: true
-
-# Punishment command.
-
-punish-command: 'kick %player% Cheating'
-
-# Make it seem like the player lagged out.
-
-time-out: false
-
-# Delay on punishment.
-
-punish-delay: 0
-
-message:
-
-- ' '
-
-- '&8- &e&lCCAC &7has removed &f%player% &7due to &fcheating.'
-
-- ' '
-
-# Lags back players who are on a client-side block.
-
-ghostblock-support:
-
-enabled: true
-
-lagback-on-walk: true
-
-# Modes: generic, pull-down
-
-lagback-type: generic
-
-# Removes the ghost blocks client side
-
-update-on-walk: true
-
-# How many times will the lagback occur
-
-lagback-amount: 1
-
-# Used for ccacs Logs
-
-database:
-
-type: SQLite
-
-uri: ''
-
-# Command Messages.
-
-commands:
-
-usage: '&eUsage: /ccac %check% %syntax%'
-
-help:
-
-- '&7Running &eccac &f&n%version%:'
-
-- ''
-
-- '&e| &7/ccac gui &8| &fOpens GUI.'
-
-- '&e| &7/ccac alerts &8| &fToggle alerts.'
-
-- '&e| &7/ccac info (player) &8| &fInformation about the player.'
-
-- '&e| &7/ccac exempt (player) &8| &fExempts the player.'
-
-- '&e| &7/ccac manualban (player) &8| &fPunishes the player.'
-
-- '&e| &7/ccac mods &8| &fChecks forge mods for a specific player.'
-
-- '&e| &7/ccac lag &8| &fShows server lag information.'
-
-- '&e| &7/ccac logs (player) &8| &fShows the logs of a player.'
-
-- '&e| &7/ccac reload &8| &fReloads configuration.'
-
-- '&6| Made by ret.TawnyE'
+# ╔════════════════════════════════════════════════════╗
+# ║ ⚝ CodeControlAC                                     ║
+# ║ ver:                                                ║
+# ╚════════════════════════════════════════════════════╝
+
+codecontrolac:
+
+  # ▶ Plugin Identity
+  prefix: '&7[&6&l⚝&7]'               # Prefix for all plugin messages
+  server-name: 'codecontrolac'        # Used in webhooks and alerts
+  license: '00AAA-AAAA-00000'         # License key for main plugin; go to **censored** to get your key
+  command: 'ccac'                     # Base command (Enterprise Only)
+  pl-name: 'CCAC'                     # Display name (Enterprise Only)
+
+  # ▶ Experimental Features
+  experimental-symbol: '(Experimental)'  # Tag for experimental checks
+
+  # ▶ Update System
+  check-updates: true                 # Auto-check for plugin updates
+
+  # ▶ Core Settings
+  settings:
+    ignore-injector: false            # Allow joins despite injection failure (not recommended)
+    logging: true                     # Enable internal logging (/ccac logs)
+    alert-delay: 10                   # Tick delay between alerts
+    geyser-support: true              # Enable Bedrock support via Geyser
+    client-check: true                # Notify staff on join with client brand
+    bypass-permission: false          # Allow "codecontrolac.bypass" to skip checks
+    runnable-tps: false               # Use alternate runnable if TPS breaks
+    transaction-sandwich: false       # Packet-integrity sandwich (1.8 only)
+    kick-vivecraft: true              # Kick Vivecraft (VR) users
+    api: false                        # Expose plugin API
+    developer-perm: true              # Grant devs full access
+    developer-analytics: true         # Send anonymous usage statistics to dev
+    anti-anti-cheat-detection: true   # Spoofs anti-cheat name (e.g., Polar, Vulcan, Matrix, Grim)
+    blink-cancel: true                # Cancel Blink cheats silently
+    force-ghost: false                # Like FreeCam, but they just don't know about it, and other players could beat the shit out of them
+
+    # ▶ CloudChecks
+    cloudchecks:                      # Cloud Checks
+      EnableKey: '00000-AB-00000'     # License key for CloudChecks; go to **censored** to get your key
+      region-enabler: 'NA-East'       # Server region for CloudChecks (NA-East, NA-West, EU, ASIA)
+      bedrock-support: true           # Enable Bedrock support in CloudChecks; may not be fully supported
+      mode-selector: 'Heavy'          # Options: Light, Medium, Heavy
+
+  # ▶ Message Templates
+  messages:
+    log-format: '&7[%date%] %check% (%type%) VL: %vl% [TPS: %tps%] [tPing: %tping%] [Info: %info%] [Client: %brand%]'
+    client-brand-message: '%prefix% &e%player% &7joined using &7[&e%brand%&7]'
+    anticrash-message: '%prefix% &e%player% &7was kicked for &6%check%'
+    no-permission-message: "&cYou don't have permission to execute this command."
+    failed-to-inject: "Failed to load your data."
+
+  # ▶ Alerts Configuration
+  alerts:
+    alert-message: '&8[&6&l⚝&8] &e%player% &7failed &e%check%&e(%type%) (&e%ping%ms) %newvl% &6%symbol%'
+    hover:
+      - '&e| &7%desc%'
+      - '&e| Info: &7%info%'
+      - '&e| CPS: &7%cps%'
+      - '&e| Sensitivity: &7%sensitivity%'
+      - '&6| &6Click to teleport. &7(Ping: &f%ping% &7TPS: &f%tps% &7Version: &f%version% &7Client: &f%brand%&7)'
+    click-command: '/tp %player%'
+    enable: '%prefix% &aYou have now enabled alerts.'
+    disable: '%prefix% &cYou have now disabled alerts.'
+
+  # ▶ AntiCrash Settings
+  anticrash:
+    enabled: true
+    announce: false
+    punish-command: 'kick %player% Crasher Detected'
+
+  # ▶ Bungee Support
+  bungee:
+    enabled: false
+    bans: false
+
+  # ▶ Discord Webhooks
+  discord:
+    enabled: false
+    user-name: 'codecontrolac'
+    alerts:
+      title: '%server% | %player% failed %check% %type% (x%vl%)'
+      color: GRAY
+      show-icon-thumbnail: true
+      alert-delay: 1000
+      alert-url: INSERT_HERE
+    punishments:
+      title: '%server% | %player% was punished. Failed: %check% %type% (x%vl%)'
+      color: RED
+      show-icon-thumbnail: true
+      ban-url: INSERT_HERE
+
+  # ▶ Lagback System
+  lagback:
+    enabled: false
+    type: silence                    # Modes: generic, pull-down, silence
+    lagback-vl: 2
+
+  # ▶ Punishment Settings
+  punishments:
+    enabled: true
+    announce: true
+    punish-command: 'kick %player% Cheating'
+    time-out: false
+    punish-delay: 0
+    message:
+      - ' '
+      - '&8- &e&lCodeControlAC &7has removed &f%player% &7due to &fcheating.'
+      - ' '
+
+  # ▶ Ghost Block Support
+  ghostblock-support:
+    enabled: true
+    lagback-on-walk: true
+    lagback-type: generic            # Modes: generic, pull-down
+    update-on-walk: true
+    lagback-amount: 1
+
+  # ▶ Database Logging
+  database:
+    type: SQLite                     # Type: SQLite (default) or MySQL
+    uri: ''
+
+  # ▶ Command Help Menu
+  commands:
+    usage: '&eUsage: /ccac %check% %syntax%'
+    help:
+      - '&7Running &f&n%version%&7:'
+      - ''
+      - '&e| &7/ccac gui &8| &fOpens GUI.'
+      - '&e| &7/ccac alerts &8| &fToggle alerts.'
+      - '&e| &7/ccac info (player) &8| &fInformation about the player.'
+      - '&e| &7/ccac exempt (player) &8| &fExempts the player.'
+      - '&e| &7/ccac manualban (player) &8| &fPunishes the player.'
+      - '&e| &7/ccac mods &8| &fChecks Forge mods.'
+      - '&e| &7/ccac lag &8| &fShows server lag information.'
+      - '&e| &7/ccac logs (player) &8| &fShows the logs of a player.'
+      - '&e| &7/ccac reload &8| &fReloads configuration.'
+      - '&6| Made by ret.tawny'
+
+# ──────────────────────────────────────────────────────────────
+# ☠ Secret Section (Enterprise Only)
+# ──────────────────────────────────────────────────────────────
+secret:
+  experimental-mode: false  # Enables experimental dev features (enterprise-only)
