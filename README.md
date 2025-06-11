@@ -2,7 +2,7 @@
 
 
 # **CodeControlAC**  
-*A Minecraft anti-cheat that supports versions 1.8 to 1.21.4*
+*A Minecraft anti-cheat that supports versions 1.8 to 1.21.5*
 
 ---
 
@@ -27,8 +27,10 @@
   You can edit pretty much everything: the plugin’s name, commands, alerts, and more to fit your server.
 
 - **Version Support**  
-  Works on Minecraft versions 1.8 through 1.21.4.
+  Works on Minecraft versions 1.8 through 1.21.5.
 
+- **Cloud Checks**
+  Seamless integration plus less performance impact.
 ---
 
 ## ✅ Detection Checks
@@ -49,7 +51,7 @@
 - **Bad Packets**: Detection types A through Z.
 - **Baritone**: Detection types A through C.
 
-### 🪨 Bedrock Checks (new)
+### 🪨 Bedrock Checks
 - **Bspeed**: Detection type A through C.
 - **Bfly**: Detection types A through C.
 - **Breach**: Detection type A.
@@ -57,13 +59,12 @@
 - **Baura**: Detection types A through F.
 - **Bstep**: Detection type A and B.
 
+### ☁️ Cloud Checks
+- **Combat**: Reach, Kill Aura, all types of Aim, Heuristics,
+- **Movement**: Basic Cloud Checks Like Standard Checks, ABC, like Speed A, Speed C, etc. Ultimate Cloud Checks Simulation-Based Cloud Check Detects anything from Elytra to small micro-addressments.
+- **Player**: AutoTotem, Scaffold, BadPackets.
+
 *there's a ton more checks, but you don't have to see Them*
-
----
-
-## 📅 Future Plans
-
-> ....
 
 ---
 
