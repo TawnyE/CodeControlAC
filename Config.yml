@@ -30,7 +30,7 @@ codecontrolac:
     transaction-sandwich: false       # Packet-integrity sandwich (1.8 only)
     kick-vivecraft: true              # Kick Vivecraft (VR) users
     api: false                        # Expose plugin API
-    developer-perm: true              # Grant devs full access
+    developer-perm: true              # Grant devs full access (only to the anti-cheat)
     developer-analytics: true         # Send anonymous usage statistics to dev
     anti-anti-cheat-detection: true   # Spoofs anti-cheat name (e.g., Polar, Vulcan, Matrix, Grim)
     blink-cancel: true                # Cancel Blink cheats silently
