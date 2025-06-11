@@ -64,7 +64,7 @@
 - **Bstep**: Detection type A and B.
 
 ### ☁️ Cloud Checks
-- **Combat**: Reach, Kill Aura, all types of Aim, Heuristics,
+- **Combat**: Reach, Kill Aura, all types of Aim, Heuristics.
 - **Movement**: Basic Cloud Checks Like Standard Checks, ABC, like Speed A, Speed C, etc. Ultimate Cloud Checks Simulation-Based Cloud Check Detects anything from Elytra to small micro-addressments.
 - **Player**: AutoTotem, Scaffold, BadPackets.
 
