@@ -37,7 +37,8 @@
 
 **CodeControlAC** includes a full range of checks to catch nearly any cheat out there. Here are a few of the main ones:
 
-### ⚙️ Movement (Like Grim, but better)  
+### ⚙️ Movement 
+
 - **Simulation**: Toggleable to standard checks if it acts weird, but it could detect all the above movement—Speed all the way up to Elytra.  
 - **Two Standard Checks**:  
   - **Speed**: A through C  
