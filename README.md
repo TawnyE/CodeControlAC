@@ -37,8 +37,12 @@
 
 **CodeControlAC** includes a full range of checks to catch nearly any cheat out there. Here are a few of the main ones:
 
-### ⚙️ Movement (Like Grim, but better)
-- Covers almost any movement cheat, and you can configure it to either lag back or stay silent with no lag at all.
+### ⚙️ Movement (Like Grim, but better)  
+- **Simulation**: Toggleable to standard checks if it acts weird, but it could detect all the above movement—Speed all the way up to Elytra.  
+- **Two Standard Checks**:  
+  - **Speed**: A through C  
+  - **Elytra**: A through G  
+  - **Fly**: A through D
 
 ### 🗡 Combat
 - **Killaura**: Has multiple detection types (A through H).
@@ -46,7 +50,7 @@
 - **Aim**: Has detection types A through I.
 
 ### 🛡 Other
-- **Auto Totem**: Detection types A and B.
+- **Auto Totem**: Detection types A and C.
 - **Crystal Aura**: Detection types A through E.
 - **Bad Packets**: Detection types A through Z.
 - **Baritone**: Detection types A through C.
@@ -70,7 +74,7 @@
 
 ## 📹 Showcase
 
-*A video showcase could come at some point, but honestly… I’m too lazy for that right now.* :p
+*SOON* :p
 
 ---
 
