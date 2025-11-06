@@ -37,7 +37,7 @@
 ### ⚙️ Movement 
 
 - **Simulation**: Toggleable to standard checks if it acts weird, but it could detect all the above movement—Speed all the way up to Elytra.  
-- **Two Standard Checks**:  
+- **Standard Checks**:  
   - **Speed**: A through C  
   - **Elytra**: A through G  
   - **Fly**: A through D
